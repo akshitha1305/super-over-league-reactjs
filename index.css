@@ -1,6 +1,13 @@
 /* Write your code here. */
 .bg-container {
   background-color: #0f172a;
+  height: 100vh;
+}
+.bg-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heading {
   font-family: "Roboto";
@@ -11,4 +18,17 @@
 .image {
   width: 300px;
   height: 300px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+    color: #f8fafc;
+  }
+  .image {
+    width: 500px;
+    height: 500px;
+  }
 }
